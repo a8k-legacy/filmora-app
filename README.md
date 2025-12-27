@@ -1,74 +1,45 @@
-# 🎬 Filmora Application
+# Filmora Application
 
-## 📌 Overview
+A web-based platform for browsing and discovering movies, built with React.js, Appwrite, and Tailwind CSS.
 
-Welcome to the **Filmora Application**, a web-based platform for browsing and discovering movies! Built using **React.js**, **Appwrite**, and **Tailwind CSS**, this project offers a sleek and modern experience for movie enthusiasts.
+## Overview
+A project for browsing movies, featuring dynamic trending lists and a modern interface. Built as a learning exercise in full-stack React development.
 
-## 🚀 Features
+## Features
+- Browse a selection of movies.
+- Dynamic trending movies algorithm.
+- Responsive design for all devices.
 
-- 🔍 **Browse Movies**: Explore a wide selection of movies.
-- 🏆 **Trending Movies Algorithm**: Discover trending movies dynamically.
-- 🎨 **Modern UI/UX**: Enjoy a sleek and intuitive design.
-- 📱 **Fully Responsive**: Works seamlessly across all devices.
-- 🛠 **Built with Best Practices**: Clean architecture and reusable components.
-
-## 🛠 Tech Stack
-
+## Tech Stack
 - **Frontend**: React.js
 - **Backend & Database**: Appwrite
 - **Styling**: Tailwind CSS
 
-## 🚀 Getting Started
+## Getting Started
 
-### 📌 Prerequisites
-
-Ensure you have the following installed:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-
-### 📥 Installation
-
+### Installation
 Clone the repository and install dependencies:
-
 ```bash
-git clone https://github.com/SaifAbdelrazek011/Filmora-App.git
-cd your-repo
+git clone https://github.com/a8k-legacy/filmora-app.git
+cd filmora-app
 npm install
 ```
 
-### 🔑 Environment Variables
-
-Create a `.env.local` file in the root directory and add the following:
-
+### Environment Setup
+Create a `.env.local` file and add your credentials:
 ```env
-VITE_IMDB_API_KEY=
-VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_DATABASE_ID=
-VITE_APPWRITE_COLLECTION_ID=
+VITE_IMDB_API_KEY=your_tmdb_api_key_here
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
 ```
 
-Replace placeholders with your **[TMDB API](https://developer.themoviedb.org/)** and **[Appwrite](https://appwrite.io/)** credentials.
-
-### 🏃 Running the Project
-
+### Running the Project
 ```bash
 npm run dev
 ```
+Access the project at `http://localhost:5173`.
 
-Access the project at [http://localhost:5173](http://localhost:5173).
+---
 
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-## 📞 Contact
-
-For any inquiries, reach out via [saifamr1234567@gmail.com].
-
+*Part of the A8K Legacy archive—a collection of early projects and learning experiments by [Saif Abdelrazek](https://saifabdelrazek.com).*
